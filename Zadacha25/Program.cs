@@ -8,17 +8,17 @@ Console.WriteLine("Введите число B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 int result = 1;
 
-/*for(int i = 1; i <= numberB; i++)
+for(int i = 1; i <= numberB; i++)
 {
     result = result * numberA;
 }
-Console.WriteLine("Ответ: " + result);*/
+Console.WriteLine("Ответ: " + result);
 
-int index = 0;
+/*int index = 0;
 while(index <= numberB)
 {
     result = numberA * numberA;
     index++;
 }
-Console.WriteLine(result);
+Console.WriteLine(result); - ЭТОТ КОД НЕ РАБОТАЕТ*/ 
 
